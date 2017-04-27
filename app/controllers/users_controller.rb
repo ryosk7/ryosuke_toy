@@ -9,8 +9,8 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
-    @micropost = Micropost.find(params[:id])
-    @micropost.user.name
+    # @micropost = Micropost.find(params[:id])
+    # @micropost.user.name
     # @micropost = @user.micropost
   end
 
